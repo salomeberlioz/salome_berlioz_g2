@@ -1,0 +1,172 @@
+body {
+    background-color: rgb(248, 238, 246);
+    margin: 0%;
+    padding: 0%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.welcome {
+    display: block;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.entete {
+    display: flex;
+    background-color: rgb(255, 220, 242);
+    width: 100%;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+
+}
+
+.titre img {
+    width: 250px;
+    border: 5px solid rgb(188, 109, 170);
+    border-radius: 90px;
+    margin: 1rem;
+    padding: 0, 5rem;
+}
+
+.titre {
+    display: flex;
+    justify-content: flex-start;
+    width: 50%;
+    margin-left: 2%;
+}
+
+.phrase {
+    text-align: center;
+}
+
+.connexion {
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+    align-items: center;
+    margin-right: 4%;
+    font-size: 250%;
+}
+
+.connexion p {
+    margin: 0;
+}
+
+
+.bas_de_page1 {
+    display: flex;
+    justify-content: center;
+    background-color:rgb(188, 109, 170);
+    color: rgb(0, 0, 0);
+    padding: 1%;
+}
+
+.bas_de_page2 {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 220, 242);
+    color: rgb(0, 0, 0);
+    padding: 4%;
+    gap: 50px;
+}
+
+.logo img {
+    width: 70px;
+}
+
+
+
+.photo_acc {
+    display: flex;
+    justify-content: center;
+    gap: 0, 5%;
+}
+
+.photo_acc img {
+    width: 50%;
+    height: auto;
+}
+
+.phrase {
+    display: flex;
+    justify-content: center;
+    font-size: 150%;
+}
+
+.categorie {
+    margin: 3%;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.photo {
+    display: flex;
+
+}
+
+.photo img {
+    width: 300px;
+    height: 450px;
+}
+
+.bouton_fleur {
+    text-align: center;
+    font-size: 25px;
+    width: 100%;
+}
+
+.bouton_fleur a {
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    border-radius: 90px;
+    font-size:75%;
+    width: 90%;
+    display: block;
+
+}
+.bouton_fleur a:hover {
+    background-color: rgb(232, 189, 210);
+}
+
+
+@media (max-width: 576px) {
+    /* Styles pour les écrans ≤ 576px */
+    .categorie {
+        display: block;
+    }
+    .titre img {
+        width: 45%;
+        border-width: 2px;
+    }
+    .connexion p {
+        font-size: small;
+    }
+    .phrase h1 {
+        font-size: medium;
+    }
+    .photo {
+        display: flex;
+        justify-content: center;
+        
+    }
+    .bouton_fleur a{
+        text-align: center;
+    }
+    .texte_introduction_sign h1{
+        text-align: center;
+        font-size: medium;
+    }
+
+  }
+
+  @media (min-width: 1201px) {
+    /* Styles pour les écrans ≥ 1201px */
+    .photo_acc {
+        display: none;
+    }
+  }

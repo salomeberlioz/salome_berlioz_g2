@@ -1,0 +1,43 @@
+.texte_introduction_listing {
+    text-align: center;
+    margin-top: 10%;
+}
+
+.ligne {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin: 7%;
+}
+.photo_rose img {
+    width: 300px;
+    height: 500px;
+}
+
+
+.nom_fleur {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+}
+
+.nom_fleur p {
+    margin: 0;
+}
+
+@media (max-width: 576px) {
+
+    /* Styles pour les écrans ≤ 576px */
+    .ligne {
+        flex-direction: column;
+
+    }
+}
+
+@media (min-width: 1201px) {
+
+    /* Styles pour les écrans ≥ 1201px */
+    .ligne {
+        justify-content: space-between;
+    }
+}
